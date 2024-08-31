@@ -1,0 +1,51 @@
+body{
+    background-image: url(https://www.lifeder.com/wp-content/uploads/2017/12/caracter%C3%ADsticas-de-la-redacci%C3%B3n-lifeder-ilust.jpg);
+    background-size: cover;
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+.menu{
+    margin: auto;
+    width: 700px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul,ol{
+    list-style: none;
+}
+.menu li a{
+    background-color: rgb(#db0808);
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    padding: 20px 60px;
+    display: block;
+}
+.menu> li  {
+    float: left;
+}
+.menu li a:hover {
+background-color: rgba(31, 30, 30, 0.52);
+background-color: rgba(31, 30, 39, 0.52);
+border-radius: 200px;
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 180px;
+}
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li ul{
+    right: -140px;
+    top: 0px;
+}
+.menu1{
+    background-color: #2eea38da;
+    border-radius: 100px;
+}
+.menu2{
+    background-color: plum;
+    border-radius: 200px;
+}
